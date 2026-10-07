@@ -16,7 +16,7 @@ This repository contains the code and cartographic pipeline for identifying and 
 <p align="center">
   <img src="graphic_abstract.png" width="90%" alt="Martian Mineral Mapping Overview"/>
   <br>
-  <em>Figure: Representative mineral mapping overlaid with topographic shaded relief.</em>
+  <em>Graphic Abstract</em>
 </p>
 
 ### Core Contributions
@@ -42,23 +42,23 @@ This repository contains the code and cartographic pipeline for identifying and 
 
 The framework unifies Martian mineralogy into **15 diagnostic mineral classes**. The standardized hex codes and RGB triplets for cartographic plotting are defined as follows:
 
-| Label ID | Mineral Class | Chinese Translation | RGB Palette | Hex Code |
-| :---: | :--- | :--- | :---: | :---: |
-| **0** | Analcime | 似长石 / 方沸石 | `[140, 67, 46]` | `#8C432E` |
-| **1** | Bassanite | 次生硫酸盐 / 半水石膏 | `[0, 0, 255]` | `#0000FF` |
-| **2** | Chlorite | 绿泥石 | `[255, 100, 0]` | `#FF6400` |
-| **3** | Epidote | 绿帘石 | `[0, 255, 200]` | `#00FFC8` |
-| **4** | Fe-Olivine | 富铁橄榄石 | `[164, 75, 155]` | `#A44B9B` |
-| **5** | High-Ca Pyroxene (HCP/CPX) | 高钙辉石 | `[101, 174, 255]` | `#65AEFF` |
-| **6** | Illite / Muscovite | 伊利石 / 白云母 | `[118, 254, 254]` | `#76FEFE` |
-| **7** | Low-Ca Pyroxene (LCP/OPX) | 低钙辉石 | `[60, 91, 112]` | `#3C5B70` |
-| **8** | Margarite | 珍珠云母 | `[255, 255, 0]` | `#FFFF00` |
-| **9** | Mg-Carbonate | 镁质碳酸盐（菱镁矿等） | `[255, 255, 255]` | `#FFFFFF` |
-| **10** | Mg-Smectite | 镁质绿脱石 / 蒙脱石 | `[255, 0, 255]` | `#FF00FF` |
-| **11** | Monohydrated sulfate | 一水硫酸盐（基瑟石等） | `[100, 0, 255]` | `#6400FF` |
-| **12** | Plagioclase | 斜长石 | `[0, 200, 254]` | `#00C8FE` |
-| **13** | Prehnite | 葡萄石 | `[0, 255, 0]` | `#00FF00` |
-| **14** | Serpentine | 蛇纹石 | `[171, 175, 80]` | `#ABAF50` |
+| Label ID | Mineral Class | RGB Palette | Hex Code |
+| :---: | :--- | :---: | :---: |
+| **0** | Analcime | `[140, 67, 46]` | `#8C432E` |
+| **1** | Bassanite | `[0, 0, 255]` | `#0000FF` |
+| **2** | Chlorite | `[255, 100, 0]` | `#FF6400` |
+| **3** | Epidote | `[0, 255, 200]` | `#00FFC8` |
+| **4** | Fe-Olivine | `[164, 75, 155]` | `#A44B9B` |
+| **5** | High-Ca Pyroxene (HCP/CPX) | `[101, 174, 255]` | `#65AEFF` |
+| **6** | Illite / Muscovite | `[118, 254, 254]` | `#76FEFE` |
+| **7** | Low-Ca Pyroxene (LCP/OPX) | `[60, 91, 112]` | `#3C5B70` |
+| **8** | Margarite | `[255, 255, 0]` | `#FFFF00` |
+| **9** | Mg-Carbonate | `[255, 255, 255]` | `#FFFFFF` |
+| **10** | Mg-Smectite | `[255, 0, 255]` | `#FF00FF` |
+| **11** | Monohydrated sulfate | `[100, 0, 255]` | `#6400FF` |
+| **12** | Plagioclase | `[0, 200, 254]` | `#00C8FE` |
+| **13** | Prehnite | `[0, 255, 0]` | `#00FF00` |
+| **14** | Serpentine | `[171, 175, 80]` | `#ABAF50` |
 
 ---
 
