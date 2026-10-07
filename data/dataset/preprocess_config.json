@@ -1,0 +1,12 @@
+{
+  "target_bands": 256,
+  "low_percentile": 1.0,
+  "high_percentile": 99.0,
+  "eps": 1e-08,
+  "region_to_id": {
+    "HC": 0,
+    "NF": 1,
+    "UP": 2
+  },
+  "note": "No wavelength info found in .mat files; spectra were normalized and resampled by normalized band index."
+}
